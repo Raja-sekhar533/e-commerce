@@ -1,10 +1,29 @@
-function show_hide(){
-    var click=document.getElementById("buy");
-    if(click.style.display==="none"){
-      click.style.display="block";
-    }
-    else{
-      click.style.display="none";
-    }
-  }
-    
+$(document).ready(function(){
+  $("#decpn").click(function(){
+    $(".hii1").show();
+  });
+  $("#decpn").click(function(){
+    $(".hii2").hide();
+  });
+  $("#decpnn").click(function(){
+    $(".hii3").hide();
+  });
+  $("#decpn2").click(function(){
+    $(".hii2").show();
+  });
+  $("#decpn2").click(function(){
+    $(".hii1").hide();
+  });
+  $("#decpn2").click(function(){
+    $(".hii3").hide();
+  });
+  $("#decpn4").click(function(){
+    $(".hii3").show();
+  });
+  $("#decpn4").click(function(){
+    $(".hii2").hide();
+  });
+  $("#decpn4").click(function(){
+    $(".hii1").hide();
+  });
+});
